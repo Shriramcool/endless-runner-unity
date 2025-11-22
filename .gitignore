@@ -1,0 +1,57 @@
+cat > .gitignore <<'EOF'
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+MemoryCaptures/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Visual Studio / Rider
+.vscode/
+.vs/
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.suo
+*.sln.docstates
+
+# MonoDevelop
+*.pidb
+
+# Asset Store tools
+Assets/AssetStoreTools*
+
+# Build artifacts
+*.apk
+*.aab
+*.exe
+*.dll
+*.so
+*.dylib
+*.jar
+
+# Cache & temp
+sysinfo.txt
+*.tmp
+*.temp
+
+# JetBrains
+.idea/
+*.iml
+
+# Git LFS: optionally edit if you track large files with LFS
+#*.psd
+#*.psb
+#*.wav
+#*.mp4
+EOF
